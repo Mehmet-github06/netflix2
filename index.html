@@ -8,35 +8,67 @@
   </head>
   <body>
     <div class="main">
-        <div class="backraund">
-            <div class="container">
-                <div class="tit">
-                    <h1>NET <span>FLİX</span></h1>
-                    <p>Thank you for singing up at Netflix. Tell us more about yuor self</p>
-                </div>
-                <div class="form-group">
-                    <form>
-                        <div>
-                            <label for="">Name</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Age</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Email</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Content Type</label>
-                            <input type="text">
-                        </div>
-                    </form>
-                </div>
-            </div>
+      <div class="backraund">
+        <div class="container">
+          <div class="tit">
+            <h1>NET <span>FLİX</span></h1>
+            <p>
+              Thank you for singing up at Netflix. Tell us more about yuor self
+            </p>
+          </div>
+          <div class="form-group">
+            <form>
+              <div>
+                <label for="">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </div>
+              <div>
+                <label for="">Age</label>
+                <input type="number" id="age" placeholder="Enter your age" />
+              </div>
+              <div>
+                <label for="">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Please enter your email"
+                />
+              </div>
+              <div>
+                <label for="">Content Type</label>
+                <select name="" id="content">
+                  <option value="">Series</option>
+                  <option value="movi">Movie</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Movie Type</label>
+                <input type="checkbox" name="" id="" />Comedy
+                <input type="checkbox" name="" id="" />Action
+                <input type="checkbox" name="" id="" checked />Romance
+              </div>
+              <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male" />Male
+                <input type="radio" name="gender" id="female" />Female
+                <input type="radio" name="gender" id="other" />Other
+              </div>
+              <div>
+                <label for="">Feed back</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Any comment"
+                ></textarea>
+              </div>
 
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
   </body>
 </html>
