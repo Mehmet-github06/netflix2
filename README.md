@@ -6,11 +6,11 @@ Welcome to the Netflix sign-up form page. This page allows users to provide info
 
 - HTML5
 - CSS3
-- JavaScript
+
 
 ## Live Demo
 
-You can view the live demo of the Netflix sign-up form [here](https://your-live-demo-link.com).
+You can view the live demo of the Netflix sign-up form [here](https://netflix2-pi.vercel.app/).
 
 ## Description
 
